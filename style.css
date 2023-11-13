@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    /* border: 1px solid black; */
+    background-color: white;
+    /* height: 40px; */
+    position: sticky;
+    top: 0;
+    /* z-index: 10; */
+    /* text-align: center; */
+    padding: 10px;
+    border: 0.5px solid black;
+    /* width: 700px; */
+}
+.top {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    /* align-self: center; */
+    /* align-content: center; */
+}
+.buttons{
+    display:flex;
+    border: 0.5px solid white;
+    background-color: rgb(19, 19, 131);
+    padding: 2px;
+    border-radius: 10px;
+   /* align-self: flex-end; */
+   justify-content: space-around;
+}
+.buttons ul li a {
+    text-decoration: none;
+    color: white;
+    /* font-size: 30px; */
+
+}
+div ul li {
+    display: inline;
+}
+.image {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+
+}
+.title {
+    border: 0Px solid;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: indigo;
+}
+
+
+h1 {
+    border:thin ;
+    /* background-color: black;😍 */
+    color: blue;
+    font-size :5vh;
+    animation-name: widthAnimate;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    width: 100px;
+    height: 50px;
+}
+.content {
+    height: 100%;
+    width: 30%;
+    /* background-color: rgba(243, 8, 8, 0.801); */
+    color:indigo;
+    font-size: 2.5vh;
+    padding: 10px;
+    animation-name: widthanimate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.aboutcontent {
+    height: 100%;
+    width: 30%;
+    color: rgb(97, 4, 94);
+    font-size: 2.5vh;
+    padding: 10px;
+    animation-name: widthanimate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+footer {
+    border: black 2px solid;
+    padding: 3px;
+    background-color: rgba(132, 247, 25, 0.979);
+    color:black;
+}
+.copyright {
+    text-align: center;
+}
+.signin{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/login-security.png);
+    height: 85vh;
+    width:98.6vw;
+    /* text-align: center; */
+    /* margin: 2px; */
+    /* border: 2px solid red; */
+    /* justify-content:space-between; */
+    border: 2px solid black;
+    color:chartreuse;
+    /* background-size:contain; */
+    /* width: 55vw;
+    height: 20vh; */
+}
+.usercred{
+    position: relative;
+    top: 10px;
+    width: 4vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.usercred input{
+       margin:10px;
+       align-items: center;
+       justify-content: center;
+       
+}
+.username{
+    text-align: center;
+}
+.password{
+    text-align: center;
+}
+.email{
+    /* border: 1px solid black; */
+    /* background-color: white; */
+    /* color: black; */
+    text-align: center;
+    /* width: 5vw; */
+    /* height: 5vh; */
+}
+.login{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    text-align: center; 
+    background-image: url(/images/login.jpg);
+    height: 100vh;
+    width:100%;
+}
+#logIn{
+    text-align: center;
+
+}
+.about{
+    font-size:5vh ;
+    width: 25vw;
+}
+#logIn button{
+    background-color: yellow;
+    border-radius: 5px;
+    height: 5vh;
+    width: 5vw;
+}
+.btn{
+    background-color: red;
+    border-radius: 5px;
+    height: 3vh;
+    width: 5vw;
+}
+/* 
+.btn:hover{
+    transform: scale(1.13);
+    background-color:blue;
+} */
